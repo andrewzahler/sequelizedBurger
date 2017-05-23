@@ -1,0 +1,31 @@
+{
+  "name": "burger",
+  "version": "0.0.1",
+  "description": "Eat-da-burger is a restaurant app that lets users input the names of burgers they'd like to eat.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewzahler/burger.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "handlebars"
+  ],
+  "author": "Andrew Zahler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewzahler/burger/issues"
+  },
+  "homepage": "https://github.com/andrewzahler/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.8",
+    "mysql": "^2.13.0"
+  }
+}
